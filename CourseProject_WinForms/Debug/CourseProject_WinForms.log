@@ -1,0 +1,8 @@
+﻿  MyForm.cpp
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MyForm.obj : error LNK2020: неразрешенная лексема (0A00047A) "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ)
+MyForm.obj : error LNK2028: ссылка на неразрешенную лексему (0A0005E0) "extern "C" void __cdecl _invalid_parameter(wchar_t const *,wchar_t const *,wchar_t const *,unsigned int,unsigned int)" (?_invalid_parameter@@$$J0YAXPB_W00II@Z) в функции "void __cdecl std::_Adjust_manually_vector_aligned(void * &,unsigned int &)" (?_Adjust_manually_vector_aligned@std@@$$FYAXAAPAXAAI@Z)
+MyForm.obj : error LNK2020: неразрешенная лексема (0A00060A) "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ)
+MyForm.obj : error LNK2001: неразрешенный внешний символ "extern "C" int __cdecl _CrtDbgReport(int,char const *,int,char const *,char const *,...)" (?_CrtDbgReport@@$$J0YAHHPBDH00ZZ).
+MyForm.obj : error LNK2019: ссылка на неразрешенный внешний символ "extern "C" void __cdecl _invalid_parameter(wchar_t const *,wchar_t const *,wchar_t const *,unsigned int,unsigned int)" (?_invalid_parameter@@$$J0YAXPB_W00II@Z) в функции "void __cdecl std::_Adjust_manually_vector_aligned(void * &,unsigned int &)" (?_Adjust_manually_vector_aligned@std@@$$FYAXAAPAXAAI@Z).
+C:\Users\Alex\source\repos\CourseProject_WinForms\Debug\CourseProject_WinForms.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
